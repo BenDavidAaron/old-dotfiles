@@ -42,4 +42,3 @@ filetype plugin indent on    " required
 syntax on
 color slate 
 nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-m> :MiniMap<CR>
