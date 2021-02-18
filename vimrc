@@ -23,6 +23,8 @@ Plugin 'davidhalter/jedi-vim'
 
 Plugin 'severin-lemaignan/vim-minimap'
 
+Plugin 'sickill/vim-monokai'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -40,5 +42,5 @@ filetype plugin indent on    " required
 
 " BDA's personal config
 syntax on
-color slate 
+color monokai
 nnoremap <C-n> :NERDTree<CR>
