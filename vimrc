@@ -21,6 +21,8 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'davidhalter/jedi-vim'
 
+Plugin 'severin-lemaignan/vim-minimap'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -40,4 +42,4 @@ filetype plugin indent on    " required
 syntax on
 color slate 
 nnoremap <C-n> :NERDTree<CR>
-
+nnoremap <C-m> :MiniMap<CR>
