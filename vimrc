@@ -44,3 +44,5 @@ filetype plugin indent on    " required
 syntax on
 color monokai
 nnoremap <C-n> :NERDTree<CR>
+set relativenumber
+
