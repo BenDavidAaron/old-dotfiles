@@ -43,6 +43,6 @@ filetype plugin indent on    " required
 " BDA's personal config
 syntax on
 color monokai
-nnoremap <C-n> :NERDTree<CR>
+nmap <C-n> :NERDTreeToggle<CR>
 set relativenumber
 
