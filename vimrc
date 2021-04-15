@@ -21,8 +21,6 @@ Plugin 'airblade/vim-gitgutter'
 
 Plugin 'davidhalter/jedi-vim'
 
-Plugin 'severin-lemaignan/vim-minimap'
-
 Plugin 'sickill/vim-monokai'
 
 Plugin 'vim-airline/vim-airline'
@@ -48,8 +46,4 @@ color monokai
 nmap <C-n> :NERDTreeToggle<CR>
 set relativenumber
 set number
-" Use ctrl-[hjkl] to select the active split!
-nmap <silent> <c-k> :wincmd k<CR>
-nmap <silent> <c-j> :wincmd j<CR>
-nmap <silent> <c-h> :wincmd h<CR>
-nmap <silent> <c-l> :wincmd l<CR>
+
