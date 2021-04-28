@@ -3,8 +3,6 @@ RPROMPT='%*'
 source ~/.zshrc_secret
 export CLICOLOR=auto
 
-export PIP_LOGIN="bda-lumi-read-pkgs:xcuzBdHYosmSy1ztiC7e"
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/bda/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bda/google-cloud-sdk/path.zsh.inc'; fi
 
