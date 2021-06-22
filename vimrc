@@ -66,4 +66,5 @@ set expandtab		"tabs will expand to whitespace characters
 syntax enable			"turn syntax highlighting on
 filetype plugin indent on	"load plugin and indent files associated a detected filetype
 runtime macros/matchit.vim	"allows jumping between brackets with % in normal mode
+set foldmethod=syntax
 
