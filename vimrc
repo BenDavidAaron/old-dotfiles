@@ -69,3 +69,11 @@ runtime macros/matchit.vim	"allows jumping between brackets with % in normal mod
 set foldmethod=syntax
 
 set backspace=eol
+
+" disable hjkl cause it conflicts with my ergodox bindings
+" and those keys are for filthy casuals anyway
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
