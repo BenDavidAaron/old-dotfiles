@@ -26,6 +26,8 @@ Plugin 'sickill/vim-monokai'
 Plugin 'vim-airline/vim-airline'
 
 Plugin 'elzr/vim-json'
+
+Plugin 'wfxr/minimap.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -44,6 +46,10 @@ filetype plugin indent on    " required
 " BDA's personal config
 color monokai
 nmap <C-n> :NERDTreeToggle<CR>
+nmap <C-m> :MinimapToggle<CR>
+let g:minimap_auto_start=1
+let g:minimap_highlight_range=3
+let g:minimap_git_colors=1
 set relativenumber
 set number
 set guifont=Source\ Code\ Pro:h14
@@ -68,12 +74,5 @@ filetype plugin indent on	"load plugin and indent files associated a detected fi
 runtime macros/matchit.vim	"allows jumping between brackets with % in normal mode
 set foldmethod=syntax
 
-set backspace=eol
-
-" disable hjkl cause it conflicts with my ergodox bindings
-" and those keys are for filthy casuals anyway
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+set backspace=eol,indent,start
 
