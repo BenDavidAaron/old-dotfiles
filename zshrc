@@ -8,3 +8,5 @@ if [ -f '/Users/bda/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/bda/google-
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/bda/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/bda/google-cloud-sdk/completion.zsh.inc'; fi
+
+bindkey -v  # Enable Vi Keybindings at shell prompt
