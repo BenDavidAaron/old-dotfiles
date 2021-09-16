@@ -53,6 +53,7 @@ set relativenumber
 set number
 set guifont=Source\ Code\ Pro:h14
 set scrolloff=3
+set nowrap
 
 " reccomended in https://jamesdixon.dev/posts/a-minimal-vimrc/
 set encoding=utf-8
