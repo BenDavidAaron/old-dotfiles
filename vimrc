@@ -45,7 +45,7 @@ filetype plugin indent on    " required
 color monokai
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <C-m> :MinimapToggle<CR>
-let g:minimap_auto_start=1
+let g:minimap_auto_start=0
 let g:minimap_highlight_range=1
 let g:minimap_git_colors=1
 let g:minimap_highlight='Visual'
