@@ -55,6 +55,7 @@ set guifont=Source\ Code\ Pro:h14
 set scrolloff=3
 set sidescrolloff=3
 set nowrap
+set linebreak
 
 " reccomended in https://jamesdixon.dev/posts/a-minimal-vimrc/
 set encoding=utf-8
