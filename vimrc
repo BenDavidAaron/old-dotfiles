@@ -28,6 +28,9 @@ Plugin 'elzr/vim-json'
 Plugin 'wfxr/minimap.vim'
 
 Plugin 'fatih/vim-go'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
