@@ -77,5 +77,5 @@ set foldmethod=syntax
 
 set backspace=eol,indent,start
 
-highlight Normal ctermbg=black
-highlight EndOfBuffer ctermbg=black
+highlight Normal ctermbg=none
+highlight EndOfBuffer ctermbg=none
