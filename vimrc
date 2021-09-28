@@ -22,6 +22,7 @@ Plugin 'elzr/vim-json'
 Plugin 'wfxr/minimap.vim'
 Plugin 'fatih/vim-go'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
