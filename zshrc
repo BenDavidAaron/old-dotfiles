@@ -2,7 +2,7 @@ source ~/.zshrc_secret
 
 autoload -U colors && colors
 
-PROMPT="%F{blue}[%n%f %F{green}%2~%#%f%F{blue}]%f"
+PROMPT="[%F{blue}%n%f %F{green}%2~%#%f%F{blue}%f]"
 RPROMPT='%(?..[%?]) %*'
 
 # Basic auto/tab complete:
