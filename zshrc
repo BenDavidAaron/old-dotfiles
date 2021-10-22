@@ -1,5 +1,5 @@
 PROMPT="%F{blue}%n%f %F{green}%2~%#%f"
-RPROMPT='%(?..[%?]) %*'
+RPROMPT='%(%F{red}?..[%?]%f) %*'
 source ~/.zshrc_secret
 export CLICOLOR=auto
 
