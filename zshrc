@@ -1,8 +1,9 @@
 source ~/.zshrc_secret
 
 autoload -U colors && colors
+export CLICOLOR=1
 
-PROMPT="[%F{blue}%n%f %F{green}%2~%#%f%F{blue}%f]"
+PROMPT="[%F{green}%n%f %F{blue}%2~%#%f%F{blue}%f]"
 RPROMPT='%(%F{red}?..[%?]%f) %*'
 
 # Basic auto/tab complete:
