@@ -3,7 +3,7 @@ source ~/.zshrc_secret
 autoload -U colors && colors
 export CLICOLOR=1
 
-PROMPT="[%F{green}%n%f%F{blue}%2~%(?.%F{green}.%F{red}%?)%#%f]"
+PROMPT="[%F{green}%n%f%F{blue}%2~ %(?.%F{green}.%F{red}%?)%#%f]"
 
 autoload -Uz vcs_info
 precmd_vcs_info() { vcs_info }
