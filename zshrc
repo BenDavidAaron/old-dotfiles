@@ -3,8 +3,15 @@ source ~/.zshrc_secret
 autoload -U colors && colors
 export CLICOLOR=1
 
-PROMPT="[%F{green}%n%f %F{blue}%2~%#%f%F{blue}%f]"
-RPROMPT='%(%F{red}?..[%?]%f) %*'
+PROMPT="[%F{green}%n%f%F{blue}%2~%(?.%F{green}.%F{red}%?)%#%f]"
+
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{240}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
 
 # Basic auto/tab complete:
 autoload -U compinit
