@@ -34,5 +34,8 @@ bindkey -v '^?' backward-delete-char
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
+# Syntax Highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
+# Github Issues told me to add this to fix ioctl errors in gpg
+export GPG_TTY=$(tty)
