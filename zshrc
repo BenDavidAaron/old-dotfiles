@@ -39,3 +39,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/d
 
 # Github Issues told me to add this to fix ioctl errors in gpg
 export GPG_TTY=$(tty)
+
+# SetGobin and add to $PATH
+export GOPATH=~/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
